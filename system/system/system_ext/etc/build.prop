@@ -1,0 +1,31 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=Xiaomi
+ro.product.system_ext.device=grus
+ro.product.system_ext.manufacturer=Xiaomi
+ro.product.system_ext.model=MI 9 SE
+ro.product.system_ext.name=aosp_grus
+ro.system_ext.build.date=Thu Sep 28 07:52:01 CEST 2023
+ro.system_ext.build.date.utc=1695880321
+ro.system_ext.build.fingerprint=Xiaomi/grus/grus:11/RKQ1.200826.002/V12.5.1.0.RFBMIXM:user/release-keys
+ro.system_ext.build.id=TQ3C.230901.001.B1
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=userdebug
+ro.system_ext.build.version.incremental=2600
+ro.system_ext.build.version.release=13
+ro.system_ext.build.version.release_or_codename=13
+ro.system_ext.build.version.sdk=33
+####################################
+# from device/xiaomi/sdm710-common/system_ext.prop
+####################################
+# DPM
+persist.vendor.dpm.feature=11
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+arm64.memtag.process.system_server=off
+# end of file

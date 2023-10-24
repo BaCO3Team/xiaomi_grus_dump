@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Project Elixir
+     SPDX-License-Identifier: Apache-2.0
+-->
+<config>
+
+  <!-- Elixir Updater -->
+  <hidden-api-whitelisted-app package="com.elixer.updater" />
+
+</config>
